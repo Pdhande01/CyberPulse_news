@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CyberPulse — Tech & Security News</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">CP</div>
+        <div>
+          <div class="title">CyberPulse</div>
+          <div class="subtitle">Tech & Cybersecurity News</div>
+        </div>
+      </div>
+
+      <div class="search-bar">
+        <input id="searchInput" class="search-input" type="search" placeholder="Search news e.g. AI, ransomware..." />
+        <button id="searchBtn" class="search-btn">Search</button>
+        <button id="themeToggle" class="theme-btn">🌙</button>
+      </div>
+    </header>
+
+    <section>
+      <div class="categories" id="categoryContainer">
+        <button class="cat-btn active" data-category="technology">Technology</button>
+        <button class="cat-btn" data-category="business">Business</button>
+        <button class="cat-btn" data-category="security">Security</button>
+        <button class="cat-btn" data-category="science">Science</button>
+        <button class="cat-btn" data-category="entertainment">Entertainment</button>
+      </div>
+
+      <main>
+        <div id="grid" class="grid">
+          <div style="grid-column:1/-1;text-align:center;color:#65748b;padding:40px 0">
+            No articles yet — Day 1 UI ready. Proceed to Day 2 to add live news.
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <footer>* Built by Parth Dhande *</footer>
+  </div>
+
+  <script src="app.js"> </script>
+</body>
+</html>
